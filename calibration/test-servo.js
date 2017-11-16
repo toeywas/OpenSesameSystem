@@ -1,11 +1,11 @@
-var piblaster = require("pi-blaster.js");
+var pifeeder = require("pi-feeder.js");
 function show(i){
 	
 	
 	//if(b)
-    //piblaster.setPwm(17, i);
+    //pifeeder.setPwm(17, i);
 	//else
-	piblaster.setPwm(17, i / 100);
+	pifeeder.setPwm(17, i / 100);
 	
 	console.log( " Set GPIO pin 17 to a PWM of  : " + i / 100);
 	setTimeout(function(){ 
